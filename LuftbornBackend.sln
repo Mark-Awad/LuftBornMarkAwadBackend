@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuftbornBackendApi", "LuftbornBackendApi\LuftbornBackendApi.csproj", "{EB779E88-C6CB-4297-BAB6-76E14ED280BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F9F32A5-BEAF-4C36-9213-2F1E237B347E} = {4F9F32A5-BEAF-4C36-9213-2F1E237B347E}
+		{64F112C2-1D46-4982-8D6F-84400D47A07D} = {64F112C2-1D46-4982-8D6F-84400D47A07D}
+		{E495AD70-FA17-4A64-A14E-463F8AC34377} = {E495AD70-FA17-4A64-A14E-463F8AC34377}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuftbornBackendService", "LuftbornBackendService\LuftbornBackendService.csproj", "{4F9F32A5-BEAF-4C36-9213-2F1E237B347E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{64F112C2-1D46-4982-8D6F-84400D47A07D} = {64F112C2-1D46-4982-8D6F-84400D47A07D}
+		{E495AD70-FA17-4A64-A14E-463F8AC34377} = {E495AD70-FA17-4A64-A14E-463F8AC34377}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuftbornBackendRepository", "LuftbornBackendRepository\LuftbornBackendRepository.csproj", "{64F112C2-1D46-4982-8D6F-84400D47A07D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E495AD70-FA17-4A64-A14E-463F8AC34377} = {E495AD70-FA17-4A64-A14E-463F8AC34377}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuftbornBackendCore", "LuftbornBackendCore\LuftbornBackendCore.csproj", "{E495AD70-FA17-4A64-A14E-463F8AC34377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB779E88-C6CB-4297-BAB6-76E14ED280BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB779E88-C6CB-4297-BAB6-76E14ED280BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB779E88-C6CB-4297-BAB6-76E14ED280BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB779E88-C6CB-4297-BAB6-76E14ED280BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9F32A5-BEAF-4C36-9213-2F1E237B347E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9F32A5-BEAF-4C36-9213-2F1E237B347E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9F32A5-BEAF-4C36-9213-2F1E237B347E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9F32A5-BEAF-4C36-9213-2F1E237B347E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F112C2-1D46-4982-8D6F-84400D47A07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F112C2-1D46-4982-8D6F-84400D47A07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F112C2-1D46-4982-8D6F-84400D47A07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F112C2-1D46-4982-8D6F-84400D47A07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E495AD70-FA17-4A64-A14E-463F8AC34377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E495AD70-FA17-4A64-A14E-463F8AC34377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E495AD70-FA17-4A64-A14E-463F8AC34377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E495AD70-FA17-4A64-A14E-463F8AC34377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82654AE6-ECF1-4C54-998A-7107516CBEDD}
+	EndGlobalSection
+EndGlobal
